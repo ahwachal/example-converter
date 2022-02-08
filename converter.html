@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- Andrew Wachal -->
+<head>
+<style>
+table, th, td{
+	border: 1px solid black;
+		border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+	<title>General Conversion Converter!</title>
+	<form action="universal.cgi" method="GET">
+		<h2>Units: usdollar, xarn, ...<h2>
+		<br>
+		<table style="width:50%">
+			<tr>
+				<th>Unit In</th>
+				<th>Units OUT</th>
+				<th>Amount</th>
+				<th>Action</th>
+			</tr>
+			<tr>
+				<td><input type="text" name="myin"></td>
+				<td><input type="text" name="myout"></td>
+				<td><input type="number" name="inamount"></td>
+				<td><input type="submit" name="submit1" value="Make it so"></td>
+			</tr>
+		</table>
+				<br><br>
+		<h2>Is there a path?<h2>
+		<br>
+		<table style="width:50%">
+			<tr>
+				<th>Units IN</th>
+				<th>Units OUT</th>
+				<th>Path?</th>
+			</tr>
+			<tr>
+				<td><input type="text" name="maybein"></td>
+				<td><input type="text" name="maybeout"></td>
+				<td><input type="submit" name="submit2" value="Is path?"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+
